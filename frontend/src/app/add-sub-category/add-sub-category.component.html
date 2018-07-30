@@ -1,0 +1,28 @@
+<div class="col-lg-12">
+  <div class="card">
+    
+    <div class="card-header d-flex align-items-center">
+      <h3 class="h4">All form elements</h3>
+    </div>
+
+
+<form  (submit)="addAddsubcat()" enctype="multipart/form-data">
+Category:<select name="subcat" [(ngModel)]="subcat" required="">
+<option>Please Select Category</option>
+
+<option value="Grocery ">Grocery</option>
+
+<option value="Construction ">Construction</option>
+
+<option value="Mobile ">Mobile</option>
+</select>
+<br>
+SubCategory:<input type="text" [(ngModel)]="sname" name="sname" required=""><br><br>
+
+Image:<input type="file" [(ngModel)]="files" name="files" required=""><br><br>
+<input type="submit" name="sub" value="submit">
+</form>
+
+
+  </div>
+</div>

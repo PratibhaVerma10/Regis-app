@@ -1,0 +1,19 @@
+<app-sidebar></app-sidebar>
+
+<h4>Added Categories</h4>
+<br/>
+<hr/>
+<div class="container">
+  
+  <div class="row" *ngFor = "let addcat of addcats">
+    <div class="col-md-3">
+      {{ addcat.cat_name }}
+    </div>
+    
+    
+    
+  <div class="col-md-3">
+    <input type="button" (click)="deleteAddcat(addcat._id)" value="Delete" class="btn btn-danger"><br/>
+   </div>
+</div>
+<br/>

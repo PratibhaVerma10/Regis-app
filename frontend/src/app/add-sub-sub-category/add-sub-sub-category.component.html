@@ -1,0 +1,96 @@
+<div class="col-lg-12">
+  <div class="card">
+    <div class="card-close">
+      
+    </div>
+    <div class="card-header d-flex align-items-center">
+      <h3 class="h4">All form elements</h3>
+    </div>
+
+
+<form  enctype="multipart/form-data" (submit) = "addAddsubsubcat()">
+Category:<select [(ngModel)]="subcat" name="subcat" required="">
+<option>Please Select Category</option>
+
+<option value="Grocery ">Grocery</option>
+
+<option value="Construction ">Construction</option>
+
+<option value="Mobile ">Mobile</option>
+</select>
+<br>
+Sub-Category:<select [(ngModel)]="subsubcat" name="subsubcat" required="">
+<option>Please Select Sub-Category</option>
+
+<option value="CLOTHING ">CLOTHING</option>
+
+<option value="FOOTWEAR ">FOOTWEAR</option>
+
+<option value="WATCHES ">WATCHES</option>
+
+<option value="EYEWEAR ">EYEWEAR</option>
+
+<option value="JEWELLERY ">JEWELLERY</option>
+
+<option value="GROOMING ">GROOMING</option>
+
+<option value="TRAVEL &amp; BAGS ">TRAVEL &amp; BAGS</option>
+
+<option value="SPORTSWEAR ">SPORTSWEAR</option>
+
+<option value="ACCESSORIES ">ACCESSORIES</option>
+
+<option value="MATERNITY ">MATERNITY</option>
+
+<option value="NEW BORN ">NEW BORN</option>
+
+<option value="BOYS ">BOYS</option>
+
+<option value="GIRLS ">GIRLS</option>
+
+<option value="ELECTRONICS ">ELECTRONICS</option>
+
+<option value="APPLIANCES ">APPLIANCES</option>
+
+<option value="ACCESSORIES ">ACCESSORIES</option>
+
+<option value="ORGANIC ">ORGANIC</option>
+
+<option value="CEMENT ">CEMENT</option>
+
+<option value="ACCESSORIES ">ACCESSORIES</option>
+
+<option value="ENGINE PARTS ">ENGINE PARTS</option>
+
+<option value="CLOTHING ">CLOTHING</option>
+
+<option value="FOOTWEAR ">FOOTWEAR</option>
+
+<option value="WATCHES ">WATCHES</option>
+
+<option value="EYEWEAR ">EYEWEAR</option>
+
+<option value="TRAVEL &amp; BAGS ">TRAVEL &amp; BAGS</option>
+
+<option value="SPORTSWEAR ">SPORTSWEAR</option>
+
+<option value="BELTS &amp; WALLETS ">BELTS &amp; WALLETS</option>
+
+<option value="GROOMING ">GROOMING</option>
+
+<option value="JEWELLERY ">JEWELLERY</option>
+
+<option value="rana ">rana</option>
+
+<option value="asdsa ">asdsa</option>
+</select>
+
+<br>
+Sub-SubCategory:<input type="text" [(ngModel)]="sscat" name="sscat" required="">
+<br>
+<input type="submit" class="btn btn btn-success" value="Add">
+</form>
+
+
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<app-sidebar></app-sidebar>
+
+<h4>Added Banners</h4>
+<br/>
+<hr/>
+<div class="container">
+  
+  <div class="row" *ngFor = "let banner of banners">
+    
+    <div class="col-md-3">
+      
+      {{ banner.subcat }}
+    </div>
+    
+    <div class="col-md-3">
+      {{ banner.sub }}
+    </div>
+    
+    
+    
+  <div class="col-md-3">
+    <input type="button" (click)="deleteBanner(banner._id)" value="Delete" class="btn btn-danger"><br/>
+   </div>
+</div>
+<br/>
